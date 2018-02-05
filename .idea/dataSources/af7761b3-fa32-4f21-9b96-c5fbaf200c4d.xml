@@ -1,0 +1,558 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="@192.168.148.150">
+  <database-model serializer="dbm" rdbms="ORACLE" format-version="4.7">
+    <root id="1"/>
+    <schema id="2" parent="1" name="SYSTEM">
+      <ObjectId>5</ObjectId>
+      <IntrospectionTimestamp>2018-01-23.01:20:38</IntrospectionTimestamp>
+      <CreatedTimestamp>2005-08-30.21:53:01</CreatedTimestamp>
+      <ModifiedTimestamp>2005-08-30.22:48:56</ModifiedTimestamp>
+      <CommentsHash>2563663124016477</CommentsHash>
+      <Current>1</Current>
+    </schema>
+    <schema id="3" parent="1" name="PUBLIC">
+      <ObjectId>1</ObjectId>
+    </schema>
+    <schema id="4" parent="1" name="SYS">
+      <ObjectId>0</ObjectId>
+    </schema>
+    <schema id="5" parent="1" name="OUTLN">
+      <ObjectId>11</ObjectId>
+    </schema>
+    <schema id="6" parent="1" name="DIP">
+      <ObjectId>19</ObjectId>
+    </schema>
+    <schema id="7" parent="1" name="TSMSYS">
+      <ObjectId>21</ObjectId>
+    </schema>
+    <schema id="8" parent="1" name="DBSNMP">
+      <ObjectId>24</ObjectId>
+    </schema>
+    <schema id="9" parent="1" name="WMSYS">
+      <ObjectId>25</ObjectId>
+    </schema>
+    <schema id="10" parent="1" name="EXFSYS">
+      <ObjectId>34</ObjectId>
+    </schema>
+    <schema id="11" parent="1" name="DMSYS">
+      <ObjectId>35</ObjectId>
+    </schema>
+    <schema id="12" parent="1" name="CTXSYS">
+      <ObjectId>36</ObjectId>
+    </schema>
+    <schema id="13" parent="1" name="XDB">
+      <ObjectId>38</ObjectId>
+    </schema>
+    <schema id="14" parent="1" name="ANONYMOUS">
+      <ObjectId>39</ObjectId>
+    </schema>
+    <schema id="15" parent="1" name="ORDSYS">
+      <ObjectId>43</ObjectId>
+    </schema>
+    <schema id="16" parent="1" name="ORDPLUGINS">
+      <ObjectId>44</ObjectId>
+    </schema>
+    <schema id="17" parent="1" name="SI_INFORMTN_SCHEMA">
+      <ObjectId>45</ObjectId>
+    </schema>
+    <schema id="18" parent="1" name="MDSYS">
+      <ObjectId>46</ObjectId>
+    </schema>
+    <schema id="19" parent="1" name="OLAPSYS">
+      <ObjectId>47</ObjectId>
+    </schema>
+    <schema id="20" parent="1" name="MDDATA">
+      <ObjectId>50</ObjectId>
+    </schema>
+    <schema id="21" parent="1" name="SYSMAN">
+      <ObjectId>51</ObjectId>
+    </schema>
+    <schema id="22" parent="1" name="MGMT_VIEW">
+      <ObjectId>53</ObjectId>
+    </schema>
+    <schema id="23" parent="1" name="SCOTT">
+      <ObjectId>54</ObjectId>
+    </schema>
+    <schema id="24" parent="1" name="HR">
+      <ObjectId>55</ObjectId>
+    </schema>
+    <schema id="25" parent="1" name="OE">
+      <ObjectId>56</ObjectId>
+    </schema>
+    <schema id="26" parent="1" name="IX">
+      <ObjectId>57</ObjectId>
+    </schema>
+    <schema id="27" parent="1" name="SH">
+      <ObjectId>58</ObjectId>
+    </schema>
+    <schema id="28" parent="1" name="PM">
+      <ObjectId>59</ObjectId>
+    </schema>
+    <schema id="29" parent="1" name="BI">
+      <ObjectId>60</ObjectId>
+    </schema>
+    <schema id="30" parent="1" name="ITHEIMA">
+      <ObjectId>61</ObjectId>
+    </schema>
+    <schema id="31" parent="1" name="BOS_296">
+      <ObjectId>62</ObjectId>
+    </schema>
+    <schema id="32" parent="1" name="CRM">
+      <ObjectId>63</ObjectId>
+      <IntrospectionTimestamp>2018-01-23.18:18:20</IntrospectionTimestamp>
+      <CreatedTimestamp>2018-01-15.00:18:25</CreatedTimestamp>
+      <ModifiedTimestamp>2018-01-23.18:18:11</ModifiedTimestamp>
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </schema>
+    <sequence id="33" parent="32" name="HIBERNATE_SEQUENCE">
+      <ObjectId>52928</ObjectId>
+      <CreatedTimestamp>2018-01-15.00:18:25</CreatedTimestamp>
+      <ModifiedTimestamp>2018-01-15.00:18:25</ModifiedTimestamp>
+      <SequenceIdentity>1</SequenceIdentity>
+    </sequence>
+    <table id="34" parent="32" name="T_CUSTOMER">
+      <ObjectId>52926</ObjectId>
+      <CreatedTimestamp>2018-01-15.00:18:25</CreatedTimestamp>
+      <ModifiedTimestamp>2018-01-15.00:18:25</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="35" parent="32" name="T_MENU">
+      <ObjectId>53117</ObjectId>
+      <CreatedTimestamp>2018-01-23.18:18:09</CreatedTimestamp>
+      <ModifiedTimestamp>2018-01-23.18:18:11</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="36" parent="32" name="T_PERMISSION">
+      <ObjectId>53119</ObjectId>
+      <CreatedTimestamp>2018-01-23.18:18:09</CreatedTimestamp>
+      <ModifiedTimestamp>2018-01-23.18:18:09</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="37" parent="32" name="T_ROLE">
+      <ObjectId>53121</ObjectId>
+      <CreatedTimestamp>2018-01-23.18:18:09</CreatedTimestamp>
+      <ModifiedTimestamp>2018-01-23.18:18:09</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="38" parent="32" name="T_ROLE_MENU">
+      <ObjectId>53123</ObjectId>
+      <CreatedTimestamp>2018-01-23.18:18:09</CreatedTimestamp>
+      <ModifiedTimestamp>2018-01-23.18:18:11</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="39" parent="32" name="T_ROLE_PERMISSION">
+      <ObjectId>53125</ObjectId>
+      <CreatedTimestamp>2018-01-23.18:18:09</CreatedTimestamp>
+      <ModifiedTimestamp>2018-01-23.18:18:11</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="40" parent="32" name="T_USER">
+      <ObjectId>53127</ObjectId>
+      <CreatedTimestamp>2018-01-23.18:18:09</CreatedTimestamp>
+      <ModifiedTimestamp>2018-01-23.18:18:11</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="41" parent="32" name="T_USER_ROLE">
+      <ObjectId>53129</ObjectId>
+      <CreatedTimestamp>2018-01-23.18:18:09</CreatedTimestamp>
+      <ModifiedTimestamp>2018-01-23.18:18:11</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <column id="42" parent="34" name="C_ID">
+      <Position>1</Position>
+      <DataType>NUMBER(10)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="43" parent="34" name="C_ADDRESS">
+      <Position>2</Position>
+      <DataType>VARCHAR2(255 char)|0</DataType>
+    </column>
+    <column id="44" parent="34" name="C_BRITHDAY">
+      <Position>3</Position>
+      <DataType>DATE|0</DataType>
+    </column>
+    <column id="45" parent="34" name="C_COMPANY">
+      <Position>4</Position>
+      <DataType>VARCHAR2(255 char)|0</DataType>
+    </column>
+    <column id="46" parent="34" name="C_DEPARTMENT">
+      <Position>5</Position>
+      <DataType>VARCHAR2(255 char)|0</DataType>
+    </column>
+    <column id="47" parent="34" name="C_EMAIL">
+      <Position>6</Position>
+      <DataType>VARCHAR2(255 char)|0</DataType>
+    </column>
+    <column id="48" parent="34" name="C_FIXED_AREA_ID">
+      <Position>7</Position>
+      <DataType>VARCHAR2(255 char)|0</DataType>
+    </column>
+    <column id="49" parent="34" name="C_MOBILEPHONE">
+      <Position>8</Position>
+      <DataType>VARCHAR2(255 char)|0</DataType>
+    </column>
+    <column id="50" parent="34" name="C_PASSWORD">
+      <Position>9</Position>
+      <DataType>VARCHAR2(255 char)|0</DataType>
+    </column>
+    <column id="51" parent="34" name="C_POSITION">
+      <Position>10</Position>
+      <DataType>VARCHAR2(255 char)|0</DataType>
+    </column>
+    <column id="52" parent="34" name="C_SEX">
+      <Position>11</Position>
+      <DataType>NUMBER(10)|0</DataType>
+    </column>
+    <column id="53" parent="34" name="C_TELEPHONE">
+      <Position>12</Position>
+      <DataType>VARCHAR2(255 char)|0</DataType>
+    </column>
+    <column id="54" parent="34" name="C_TYPE">
+      <Position>13</Position>
+      <DataType>NUMBER(10)|0</DataType>
+    </column>
+    <column id="55" parent="34" name="C_USERNAME">
+      <Position>14</Position>
+      <DataType>VARCHAR2(255 char)|0</DataType>
+    </column>
+    <index id="56" parent="34" name="SYS_C005521">
+      <ObjectId>52927</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2018-01-15.00:18:25</CreatedTimestamp>
+      <ModifiedTimestamp>2018-01-15.00:18:25</ModifiedTimestamp>
+      <TablespaceName>USERS</TablespaceName>
+      <ColNames>C_ID</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="57" parent="34" name="SYS_C005521">
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2018-01-15.00:18:25</ModifiedTimestamp>
+      <ColNames>C_ID</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>SYS_C005521</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="58" parent="35" name="C_ID">
+      <Position>1</Position>
+      <DataType>NUMBER(10)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="59" parent="35" name="C_DESCRIPTION">
+      <Position>2</Position>
+      <DataType>VARCHAR2(255 char)|0</DataType>
+    </column>
+    <column id="60" parent="35" name="C_NAME">
+      <Position>3</Position>
+      <DataType>VARCHAR2(255 char)|0</DataType>
+    </column>
+    <column id="61" parent="35" name="C_PAGE">
+      <Position>4</Position>
+      <DataType>VARCHAR2(255 char)|0</DataType>
+    </column>
+    <column id="62" parent="35" name="C_PRIORITY">
+      <Position>5</Position>
+      <DataType>NUMBER(10)|0</DataType>
+    </column>
+    <column id="63" parent="35" name="C_PID">
+      <Position>6</Position>
+      <DataType>NUMBER(10)|0</DataType>
+    </column>
+    <index id="64" parent="35" name="SYS_C005563">
+      <ObjectId>53118</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2018-01-23.18:18:09</CreatedTimestamp>
+      <ModifiedTimestamp>2018-01-23.18:18:09</ModifiedTimestamp>
+      <TablespaceName>USERS</TablespaceName>
+      <ColNames>C_ID</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="65" parent="35" name="SYS_C005563">
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2018-01-23.18:18:09</ModifiedTimestamp>
+      <ColNames>C_ID</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>SYS_C005563</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="66" parent="35" name="FKS2GGRQEMELGIRB6WWETBJQMCT">
+      <ModifiedTimestamp>2018-01-23.18:18:11</ModifiedTimestamp>
+      <ColNames>C_PID</ColNames>
+      <RefSchemaName>CRM</RefSchemaName>
+      <RefTableName>T_MENU</RefTableName>
+      <RefKeyName>SYS_C005563</RefKeyName>
+      <OnDelete>restrict</OnDelete>
+    </foreign-key>
+    <column id="67" parent="36" name="C_ID">
+      <Position>1</Position>
+      <DataType>NUMBER(10)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="68" parent="36" name="C_DESCRIPTION">
+      <Position>2</Position>
+      <DataType>VARCHAR2(255 char)|0</DataType>
+    </column>
+    <column id="69" parent="36" name="C_KEYWORD">
+      <Position>3</Position>
+      <DataType>VARCHAR2(255 char)|0</DataType>
+    </column>
+    <column id="70" parent="36" name="C_NAME">
+      <Position>4</Position>
+      <DataType>VARCHAR2(255 char)|0</DataType>
+    </column>
+    <index id="71" parent="36" name="SYS_C005565">
+      <ObjectId>53120</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2018-01-23.18:18:09</CreatedTimestamp>
+      <ModifiedTimestamp>2018-01-23.18:18:09</ModifiedTimestamp>
+      <TablespaceName>USERS</TablespaceName>
+      <ColNames>C_ID</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="72" parent="36" name="SYS_C005565">
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2018-01-23.18:18:09</ModifiedTimestamp>
+      <ColNames>C_ID</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>SYS_C005565</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="73" parent="37" name="C_ID">
+      <Position>1</Position>
+      <DataType>NUMBER(10)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="74" parent="37" name="C_DESCRIPTION">
+      <Position>2</Position>
+      <DataType>VARCHAR2(255 char)|0</DataType>
+    </column>
+    <column id="75" parent="37" name="C_KEYWORD">
+      <Position>3</Position>
+      <DataType>VARCHAR2(255 char)|0</DataType>
+    </column>
+    <column id="76" parent="37" name="C_NAME">
+      <Position>4</Position>
+      <DataType>VARCHAR2(255 char)|0</DataType>
+    </column>
+    <index id="77" parent="37" name="SYS_C005567">
+      <ObjectId>53122</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2018-01-23.18:18:09</CreatedTimestamp>
+      <ModifiedTimestamp>2018-01-23.18:18:09</ModifiedTimestamp>
+      <TablespaceName>USERS</TablespaceName>
+      <ColNames>C_ID</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="78" parent="37" name="SYS_C005567">
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2018-01-23.18:18:09</ModifiedTimestamp>
+      <ColNames>C_ID</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>SYS_C005567</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="79" parent="38" name="C_ROLE_ID">
+      <Position>1</Position>
+      <DataType>NUMBER(10)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="80" parent="38" name="C_MENU_ID">
+      <Position>2</Position>
+      <DataType>NUMBER(10)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="81" parent="38" name="SYS_C005570">
+      <ObjectId>53124</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2018-01-23.18:18:09</CreatedTimestamp>
+      <ModifiedTimestamp>2018-01-23.18:18:09</ModifiedTimestamp>
+      <TablespaceName>USERS</TablespaceName>
+      <ColNames>C_ROLE_ID
+C_MENU_ID</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="82" parent="38" name="SYS_C005570">
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2018-01-23.18:18:09</ModifiedTimestamp>
+      <ColNames>C_ROLE_ID
+C_MENU_ID</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>SYS_C005570</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="83" parent="38" name="FK6W94MFB5V0K7WXCMD6ENTWL7V">
+      <ModifiedTimestamp>2018-01-23.18:18:11</ModifiedTimestamp>
+      <ColNames>C_ROLE_ID</ColNames>
+      <RefSchemaName>CRM</RefSchemaName>
+      <RefTableName>T_ROLE</RefTableName>
+      <RefKeyName>SYS_C005567</RefKeyName>
+      <OnDelete>restrict</OnDelete>
+    </foreign-key>
+    <foreign-key id="84" parent="38" name="FKONMMFAGV5HX8W5YDXVQO73XHA">
+      <ModifiedTimestamp>2018-01-23.18:18:11</ModifiedTimestamp>
+      <ColNames>C_MENU_ID</ColNames>
+      <RefSchemaName>CRM</RefSchemaName>
+      <RefTableName>T_MENU</RefTableName>
+      <RefKeyName>SYS_C005563</RefKeyName>
+      <OnDelete>restrict</OnDelete>
+    </foreign-key>
+    <column id="85" parent="39" name="C_ROLE_ID">
+      <Position>1</Position>
+      <DataType>NUMBER(10)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="86" parent="39" name="C_PERMISSION_ID">
+      <Position>2</Position>
+      <DataType>NUMBER(10)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="87" parent="39" name="SYS_C005573">
+      <ObjectId>53126</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2018-01-23.18:18:09</CreatedTimestamp>
+      <ModifiedTimestamp>2018-01-23.18:18:09</ModifiedTimestamp>
+      <TablespaceName>USERS</TablespaceName>
+      <ColNames>C_ROLE_ID
+C_PERMISSION_ID</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="88" parent="39" name="SYS_C005573">
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2018-01-23.18:18:09</ModifiedTimestamp>
+      <ColNames>C_ROLE_ID
+C_PERMISSION_ID</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>SYS_C005573</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="89" parent="39" name="FKRBTWEDL099SMOUXUPMK5JB4NP">
+      <ModifiedTimestamp>2018-01-23.18:18:11</ModifiedTimestamp>
+      <ColNames>C_ROLE_ID</ColNames>
+      <RefSchemaName>CRM</RefSchemaName>
+      <RefTableName>T_ROLE</RefTableName>
+      <RefKeyName>SYS_C005567</RefKeyName>
+      <OnDelete>restrict</OnDelete>
+    </foreign-key>
+    <foreign-key id="90" parent="39" name="FKSOGNHTHYJUBE5XNBW15157OSF">
+      <ModifiedTimestamp>2018-01-23.18:18:11</ModifiedTimestamp>
+      <ColNames>C_PERMISSION_ID</ColNames>
+      <RefSchemaName>CRM</RefSchemaName>
+      <RefTableName>T_PERMISSION</RefTableName>
+      <RefKeyName>SYS_C005565</RefKeyName>
+      <OnDelete>restrict</OnDelete>
+    </foreign-key>
+    <column id="91" parent="40" name="C_ID">
+      <Position>1</Position>
+      <DataType>NUMBER(10)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="92" parent="40" name="C_BIRTHDAY">
+      <Position>2</Position>
+      <DataType>TIMESTAMP(6)|0</DataType>
+    </column>
+    <column id="93" parent="40" name="C_GENDER">
+      <Position>3</Position>
+      <DataType>VARCHAR2(255 char)|0</DataType>
+    </column>
+    <column id="94" parent="40" name="C_NICKNAME">
+      <Position>4</Position>
+      <DataType>VARCHAR2(255 char)|0</DataType>
+    </column>
+    <column id="95" parent="40" name="C_PASSWORD">
+      <Position>5</Position>
+      <DataType>VARCHAR2(255 char)|0</DataType>
+    </column>
+    <column id="96" parent="40" name="C_REMARK">
+      <Position>6</Position>
+      <DataType>VARCHAR2(255 char)|0</DataType>
+    </column>
+    <column id="97" parent="40" name="C_STATION">
+      <Position>7</Position>
+      <DataType>VARCHAR2(255 char)|0</DataType>
+    </column>
+    <column id="98" parent="40" name="C_TELEPHONE">
+      <Position>8</Position>
+      <DataType>VARCHAR2(255 char)|0</DataType>
+    </column>
+    <column id="99" parent="40" name="C_USERNAME">
+      <Position>9</Position>
+      <DataType>VARCHAR2(255 char)|0</DataType>
+    </column>
+    <index id="100" parent="40" name="SYS_C005575">
+      <ObjectId>53128</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2018-01-23.18:18:09</CreatedTimestamp>
+      <ModifiedTimestamp>2018-01-23.18:18:09</ModifiedTimestamp>
+      <TablespaceName>USERS</TablespaceName>
+      <ColNames>C_ID</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <index id="101" parent="40" name="UK_IJNM8HYPLAVLJMEB0CU7NKF9B">
+      <ObjectId>53131</ObjectId>
+      <CreatedTimestamp>2018-01-23.18:18:11</CreatedTimestamp>
+      <ModifiedTimestamp>2018-01-23.18:18:11</ModifiedTimestamp>
+      <TablespaceName>USERS</TablespaceName>
+      <ColNames>C_USERNAME</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="102" parent="40" name="SYS_C005575">
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2018-01-23.18:18:09</ModifiedTimestamp>
+      <ColNames>C_ID</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>SYS_C005575</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <key id="103" parent="40" name="UK_IJNM8HYPLAVLJMEB0CU7NKF9B">
+      <ModifiedTimestamp>2018-01-23.18:18:11</ModifiedTimestamp>
+      <ColNames>C_USERNAME</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>UK_IJNM8HYPLAVLJMEB0CU7NKF9B</UnderlyingIndexName>
+    </key>
+    <column id="104" parent="41" name="C_USER_ID">
+      <Position>1</Position>
+      <DataType>NUMBER(10)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="105" parent="41" name="C_ROLE_ID">
+      <Position>2</Position>
+      <DataType>NUMBER(10)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="106" parent="41" name="SYS_C005578">
+      <ObjectId>53130</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2018-01-23.18:18:09</CreatedTimestamp>
+      <ModifiedTimestamp>2018-01-23.18:18:09</ModifiedTimestamp>
+      <TablespaceName>USERS</TablespaceName>
+      <ColNames>C_USER_ID
+C_ROLE_ID</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="107" parent="41" name="SYS_C005578">
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2018-01-23.18:18:09</ModifiedTimestamp>
+      <ColNames>C_USER_ID
+C_ROLE_ID</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>SYS_C005578</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="108" parent="41" name="FK9948HCIPPKRDY7LLAF96FYQ81">
+      <ModifiedTimestamp>2018-01-23.18:18:11</ModifiedTimestamp>
+      <ColNames>C_USER_ID</ColNames>
+      <RefSchemaName>CRM</RefSchemaName>
+      <RefTableName>T_USER</RefTableName>
+      <RefKeyName>SYS_C005575</RefKeyName>
+      <OnDelete>restrict</OnDelete>
+    </foreign-key>
+    <foreign-key id="109" parent="41" name="FK78E5QD0RIAEAT0WQUHUWCC3CQ">
+      <ModifiedTimestamp>2018-01-23.18:18:11</ModifiedTimestamp>
+      <ColNames>C_ROLE_ID</ColNames>
+      <RefSchemaName>CRM</RefSchemaName>
+      <RefTableName>T_ROLE</RefTableName>
+      <RefKeyName>SYS_C005567</RefKeyName>
+      <OnDelete>restrict</OnDelete>
+    </foreign-key>
+  </database-model>
+</dataSource>

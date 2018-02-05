@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://D:/feiq/code/bos_fore" />
+    <file type="web" url="file://D:/feiq/Recv Files/bos-day09/code/code/crm" />
+    <file type="web" url="file://D:/feiq/Recv Files/bos-day10/code/activeMQ_296" />
+    <file type="web" url="file://D:/feiq/Recv Files/bos-day10/code/bos_fore" />
+    <file type="web" url="file://D:/feiq/Recv Files/bos-day10/code/bos_management_parent/bos_management_web" />
+    <file type="web" url="file://D:/feiq/Recv Files/bos-day10/code/send_mail" />
+    <file type="web" url="file://D:/feiq/Recv Files/bos-day11/code/bos_management_parent/bos_management_web" />
+    <file type="web" url="file://E:/code/bos_fore" />
+    <file type="web" url="file://E:/code/bos_management_parent/bos_management_web" />
+    <file type="web" url="file://E:/code/crm" />
+    <file type="web" url="file://E:/code/send_mail" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="E:/code/crm/pom.xml" />
+        <option value="E:/code/common_parent/pom.xml" />
+        <option value="E:/code/bos_management_parent/pom.xml" />
+        <option value="E:/code/bos_fore/pom.xml" />
+        <option value="E:/code/send_mail/pom.xml" />
+      </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="D:/feiq/Recv Files/bos-day10/code/bos_management_parent/bos_management_dao/pom.xml" />
+        <option value="D:/feiq/Recv Files/bos-day10/code/bos_management_parent/bos_management_domain/pom.xml" />
+        <option value="D:/feiq/Recv Files/bos-day10/code/bos_management_parent/bos_management_service/pom.xml" />
+        <option value="D:/feiq/Recv Files/bos-day10/code/bos_management_parent/bos_management_utils/pom.xml" />
+        <option value="D:/feiq/Recv Files/bos-day10/code/bos_management_parent/bos_management_web/pom.xml" />
+        <option value="D:/feiq/Recv Files/bos-day10/code/bos_management_parent/pom.xml" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_7" default="true" project-jdk-name="1.7" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="bos_fore" />
+        <module name="bos_management_dao" />
+        <module name="bos_management_domain" />
+        <module name="bos_management_service" />
+        <module name="bos_management_utils" />
+        <module name="bos_management_web" />
+        <module name="crm" />
+        <module name="send_mail" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="activeMQ_296" target="1.7" />
+      <module name="bigdata" target="1.7" />
+      <module name="bos_fore" target="1.7" />
+      <module name="bos_management_dao" target="1.7" />
+      <module name="bos_management_dao (2)" target="1.7" />
+      <module name="bos_management_domain" target="1.7" />
+      <module name="bos_management_domain (2)" target="1.7" />
+      <module name="bos_management_parent" target="1.7" />
+      <module name="bos_management_parent (2)" target="1.7" />
+      <module name="bos_management_service" target="1.7" />
+      <module name="bos_management_service (2)" target="1.7" />
+      <module name="bos_management_utils" target="1.7" />
+      <module name="bos_management_utils (2)" target="1.7" />
+      <module name="bos_management_web" target="1.7" />
+      <module name="bos_management_web (2)" target="1.7" />
+      <module name="cloudDay05" target="1.7" />
+      <module name="common_parent" target="1.7" />
+      <module name="crm" target="1.7" />
+      <module name="hello-spark" target="1.7" />
+      <module name="kafka2Strom" target="1.7" />
+      <module name="learn" target="1.7" />
+      <module name="my-rpc" target="1.7" />
+      <module name="send_mail" target="1.7" />
+      <module name="spark-core_2.10" target="1.6" />
+      <module name="spark-core_2.10 (1)" target="1.6" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
